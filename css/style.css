@@ -9,8 +9,8 @@ body {
 }
 
 main {
-    width: 80%;
-    margin: 0 auto;
+    width: 55%;
+    margin: 20px auto;
 }
 
 #container {
@@ -18,9 +18,6 @@ main {
     background-color: aqua;
 }
 
-.margin-auto {
-    margin: 0px auto;
-}
 
 .titolo {
     width: 70%;
@@ -44,14 +41,16 @@ header>h1 {
 .img-carte-scoperte {
     width: 150px;
     display: none;
+    position: absolute;
+    bottom: 10px;
 }
 
 .descrizione-img {
     color: rgb(197, 55, 178);
     position: absolute;
-    bottom: 10px;
     left: 25px;
     display: none;
+    padding: 5px;
 }
 
 .carte-gioco:hover .img-carte-scoperte{
@@ -74,6 +73,10 @@ header>h1 {
     display: none;
 }
 
+.carte-scoperte {
+    position: relative;
+}
 
-
-
+.footer {
+    text-align: center;
+}
