@@ -22,6 +22,7 @@ main {
 .titolo {
     width: 70%;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 header>h1 {
@@ -36,6 +37,7 @@ header>h1 {
     position: relative;
     margin-left: 10px;
     margin-bottom: 20px;
+    
 }
 
 .img-carte-scoperte {
@@ -59,6 +61,10 @@ header>h1 {
 
 .carte-gioco:hover .descrizione-img {
     display: inline-block;
+}
+
+.background-color {
+    background-color: white;
 }
 
 .img-carte-coperte {
