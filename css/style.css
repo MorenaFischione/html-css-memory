@@ -1,51 +1,79 @@
 * {
-    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Fredoka One', cursive;
 }
 
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #container {
-    width: 100%;
-    margin: 200px 0;
-    background-color: rgb(109, 193, 207);
-    ;
-    
+    height: 100%;
+    background-color: aqua;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: 3em;
-    text-transform: uppercase;
+.margin-auto {
+    margin: 0px auto;
 }
 
-.contain {
+.titolo {
     width: 70%;
     margin: 0 auto;
-
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+header>h1 {
+    text-align: center;
 }
 
-.card {
-    width: 120px;
-    height: 150px;
-    background-color: violet;
-    margin: 0 auto;
+.carte-gioco {
+    width: 150px;
+    max-height: 200px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
-.float-left {
-    float: left;
+.img-carte-scoperte {
+    width: 150px;
+    display: none;
 }
+
+.descrizione-img {
+    color: rgb(197, 55, 178);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    display: none;
+}
+
+.carte-gioco:hover .img-carte-scoperte{
+    display: inline-block;
+}
+
+.carte-gioco:hover .descrizione-img {
+    display: inline-block;
+}
+
+.img-carte-coperte {
+    width: 150px;
+    min-height: 200px;
+    background-size: contain;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.carte-gioco:hover .img-carte-coperte {
+    display: none;
+}
+
+
+
+
