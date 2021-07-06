@@ -40,11 +40,16 @@ header>h1 {
     
 }
 
+.carte-scoperte {
+    position: relative;
+}
+
 .img-carte-scoperte {
     width: 150px;
     display: none;
     position: absolute;
     bottom: 10px;
+    background-size: contain;
 }
 
 .descrizione-img {
@@ -73,15 +78,13 @@ header>h1 {
     background-size: contain;
     border-radius: 10px;
     display: inline-block;
+    background-image: url(../img/pattern.png);
 }
 
 .carte-gioco:hover .img-carte-coperte {
     display: none;
 }
 
-.carte-scoperte {
-    position: relative;
-}
 
 .footer {
     text-align: center;
